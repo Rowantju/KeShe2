@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ROWAN-PC</Machine>
+    <WindowsUser>Rowan</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>B691081690EA42A385D937E6D7391576B254DD8D76E4841BB6ED92465D7F354D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7460fb2a-33be-4f00-b8ee-0b27b9bde476_1.0.0.0_neutral__tnkk7829xd49r</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7460fb2a-33be-4f00-b8ee-0b27b9bde476_tnkk7829xd49r!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7460fb2a-33be-4f00-b8ee-0b27b9bde476</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Rowan</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-15T23:41:24.876</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\MiShi.exe">
+      <PackagePath>MiShi.exe</PackagePath>
+      <Modified>2013-05-15T23:41:23.766</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\MiShi.pdb">
+      <PackagePath>MiShi.pdb</PackagePath>
+      <Modified>2013-05-15T23:41:23.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\01.PNG">
+      <PackagePath>Assets\01.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\10.PNG">
+      <PackagePath>Assets\10.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.529</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\11.PNG">
+      <PackagePath>Assets\11.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.533</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\12.PNG">
+      <PackagePath>Assets\12.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\13.PNG">
+      <PackagePath>Assets\13.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.544</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\14.PNG">
+      <PackagePath>Assets\14.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.554</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\15.PNG">
+      <PackagePath>Assets\15.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.559</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\16.PNG">
+      <PackagePath>Assets\16.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.563</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\17.PNG">
+      <PackagePath>Assets\17.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\18.PNG">
+      <PackagePath>Assets\18.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\02.PNG">
+      <PackagePath>Assets\02.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.581</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\03.PNG">
+      <PackagePath>Assets\03.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\04.PNG">
+      <PackagePath>Assets\04.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\05.PNG">
+      <PackagePath>Assets\05.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.598</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\06.PNG">
+      <PackagePath>Assets\06.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.509</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\07.PNG">
+      <PackagePath>Assets\07.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.514</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\08.PNG">
+      <PackagePath>Assets\08.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.521</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\09.PNG">
+      <PackagePath>Assets\09.PNG</PackagePath>
+      <Modified>2013-05-15T14:57:21.526</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-05-15T13:50:09.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-07-26T12:23:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\East.xaml">
+      <PackagePath>East.xaml</PackagePath>
+      <Modified>2013-05-15T23:31:57.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-05-15T23:29:28.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\South.xaml">
+      <PackagePath>South.xaml</PackagePath>
+      <Modified>2013-05-15T23:41:17.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\West.xaml">
+      <PackagePath>West.xaml</PackagePath>
+      <Modified>2013-05-15T23:38:05.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-05-15T23:41:24.331</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
