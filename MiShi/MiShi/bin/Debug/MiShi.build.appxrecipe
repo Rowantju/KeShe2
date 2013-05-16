@@ -73,9 +73,30 @@
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\09.PNG">
       <PackagePath>Assets\09.PNG</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\19.PNG">
+      <PackagePath>Assets\19.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\191.png">
+      <PackagePath>Assets\191.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\192.png">
+      <PackagePath>Assets\192.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\193.png">
+      <PackagePath>Assets\193.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\NOTE.PNG">
+      <PackagePath>Assets\NOTE.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\PICTURE.PNG">
+      <PackagePath>Assets\PICTURE.PNG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\PictureOnTable.png">
+      <PackagePath>Assets\PictureOnTable.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
@@ -89,11 +110,23 @@
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\VIDEO.PNG">
+      <PackagePath>Assets\VIDEO.PNG</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\AfterPicturePrinted.xaml">
+      <PackagePath>AfterPicturePrinted.xaml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\Computer0.xaml">
+      <PackagePath>Computer0.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\ComputerScreen0.xaml">
+      <PackagePath>ComputerScreen0.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\East.xaml">
       <PackagePath>East.xaml</PackagePath>
@@ -103,6 +136,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\South.xaml">
       <PackagePath>South.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\Start0.xaml">
+      <PackagePath>Start0.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\West.xaml">
       <PackagePath>West.xaml</PackagePath>

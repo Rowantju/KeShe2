@@ -103,8 +103,17 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AfterPicturePrinted.xaml.cs">
+      <DependentUpon>AfterPicturePrinted.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Computer0.xaml.cs">
+      <DependentUpon>Computer0.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ComputerScreen0.xaml.cs">
+      <DependentUpon>ComputerScreen0.xaml</DependentUpon>
     </Compile>
     <Compile Include="East.xaml.cs">
       <DependentUpon>East.xaml</DependentUpon>
@@ -115,6 +124,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="South.xaml.cs">
       <DependentUpon>South.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Start0.xaml.cs">
+      <DependentUpon>Start0.xaml</DependentUpon>
     </Compile>
     <Compile Include="West.xaml.cs">
       <DependentUpon>West.xaml</DependentUpon>
@@ -145,19 +157,39 @@
     <Content Include="Assets\07.PNG" />
     <Content Include="Assets\08.PNG" />
     <Content Include="Assets\09.PNG" />
+    <Content Include="Assets\19.PNG" />
+    <Content Include="Assets\191.png" />
+    <Content Include="Assets\192.png" />
+    <Content Include="Assets\193.png" />
     <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\NOTE.PNG" />
+    <Content Include="Assets\PICTURE.PNG" />
+    <Content Include="Assets\PictureOnTable.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\VIDEO.PNG" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="AfterPicturePrinted.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Common\StandardStyles.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Computer0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ComputerScreen0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="East.xaml">
       <SubType>Designer</SubType>
@@ -168,6 +200,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="South.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Start0.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

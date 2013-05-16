@@ -8,9 +8,9 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-    	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1366" Source="Assets/04.PNG" Stretch="Fill"/>
+    	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/04.PNG" Stretch="Fill"/>
     	<Button x:ConnectionId='1' x:Name="WestLeftButton" Content="" HorizontalAlignment="Left" Margin="22,36,0,0" VerticalAlignment="Top" Opacity="0" BorderThickness="0" Width="75" Height="70"                             />
-    	<Button x:ConnectionId='2' x:Name="WestRightButton" Content="" HorizontalAlignment="Left" Margin="1272,36,0,0" VerticalAlignment="Top" Opacity="0" BorderThickness="0" Width="75" Height="70"                              />
+    	<Button x:ConnectionId='2' x:Name="WestRightButton" Content="" HorizontalAlignment="Left" Margin="1139,36,0,0" VerticalAlignment="Top" Opacity="0" BorderThickness="0" Width="75" Height="70"                              />
 
     </Grid>
 </Page>

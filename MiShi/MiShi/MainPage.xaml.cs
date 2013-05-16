@@ -50,6 +50,11 @@ namespace MiShi
         {
             this.Frame.Navigate(typeof(East));
         }
+
+        private void EnlargeComputerButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Computer0));
+        }
         
     }
 }
