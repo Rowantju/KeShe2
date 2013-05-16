@@ -8,10 +8,10 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1366" Source="Assets/01.PNG" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/01.PNG" Stretch="Fill"/>
         <Button x:Name="NorthLeftButton" Content="" HorizontalAlignment="Left" Height="70" Margin="20,39,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Opacity="0" Click="NorthLeftButton_Click"/>
-        <Button x:Name="NorthRightButton" Content="" HorizontalAlignment="Left" Margin="1272,39,0,0" VerticalAlignment="Top" FontSize="24" Height="70" Width="75" BorderThickness="0" Click="NorthRightButton_Click" Opacity="0"/>
-        <Button x:Name="EnlargeComputerButton" Content="" HorizontalAlignment="Left" Height="85" Margin="246,349,0,0" VerticalAlignment="Top" Width="93" Opacity="0" BorderThickness="0"/>
+        <Button x:Name="NorthRightButton" Content="" HorizontalAlignment="Left" Margin="1141,39,0,0" VerticalAlignment="Top" FontSize="24" Height="70" Width="75" BorderThickness="0" Click="NorthRightButton_Click" Opacity="0"/>
+        <Button x:Name="EnlargeComputerButton" Content="" HorizontalAlignment="Left" Height="85" Margin="217,350,0,0" VerticalAlignment="Top" Width="93" Opacity="0" BorderThickness="0" Click="EnlargeComputerButton_Click"/>
 
     </Grid>
 </Page>

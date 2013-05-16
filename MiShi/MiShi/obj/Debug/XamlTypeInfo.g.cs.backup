@@ -112,11 +112,21 @@ namespace MiShi.MiShi_XamlTypeInfo
             }
         }
 
-        private object Activate_0_East() { return new global::MiShi.East(); }
+        private object Activate_0_AfterPicturePrinted() { return new global::MiShi.AfterPicturePrinted(); }
 
-        private object Activate_1_MainPage() { return new global::MiShi.MainPage(); }
+        private object Activate_1_Computer0() { return new global::MiShi.Computer0(); }
 
-        private object Activate_2_West() { return new global::MiShi.West(); }
+        private object Activate_2_ComputerScreen0() { return new global::MiShi.ComputerScreen0(); }
+
+        private object Activate_3_East() { return new global::MiShi.East(); }
+
+        private object Activate_4_MainPage() { return new global::MiShi.MainPage(); }
+
+        private object Activate_5_South() { return new global::MiShi.South(); }
+
+        private object Activate_6_Start0() { return new global::MiShi.Start0(); }
+
+        private object Activate_7_West() { return new global::MiShi.West(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -134,21 +144,51 @@ namespace MiShi.MiShi_XamlTypeInfo
                 xamlType = new global::MiShi.MiShi_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.UserControl));
                 break;
 
+            case "MiShi.AfterPicturePrinted":
+                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.AfterPicturePrinted), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_0_AfterPicturePrinted;
+                xamlType = userType;
+                break;
+
+            case "MiShi.Computer0":
+                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.Computer0), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_1_Computer0;
+                xamlType = userType;
+                break;
+
+            case "MiShi.ComputerScreen0":
+                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.ComputerScreen0), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_2_ComputerScreen0;
+                xamlType = userType;
+                break;
+
             case "MiShi.East":
                 userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.East), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_East;
+                userType.Activator = Activate_3_East;
                 xamlType = userType;
                 break;
 
             case "MiShi.MainPage":
                 userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.MainPage), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_1_MainPage;
+                userType.Activator = Activate_4_MainPage;
+                xamlType = userType;
+                break;
+
+            case "MiShi.South":
+                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.South), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_5_South;
+                xamlType = userType;
+                break;
+
+            case "MiShi.Start0":
+                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.Start0), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_Start0;
                 xamlType = userType;
                 break;
 
             case "MiShi.West":
                 userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.West), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_2_West;
+                userType.Activator = Activate_7_West;
                 xamlType = userType;
                 break;
 
