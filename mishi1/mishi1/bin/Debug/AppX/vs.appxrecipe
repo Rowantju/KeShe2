@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>VAFFLE-PC</Machine>
+    <WindowsUser>Vaffle</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>E4F30CA3B65F96BD82C5F32F996BA966AC4CE1C9FAB2DFD3BC1E3F0CAE969AA0</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fbb9d573-229a-400c-a19f-9ab4ac394afc_1.0.0.0_neutral__fdd0sbjks5c7w</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fbb9d573-229a-400c-a19f-9ab4ac394afc_fdd0sbjks5c7w!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>fbb9d573-229a-400c-a19f-9ab4ac394afc</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Vaffle</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-05-16T01:58:45.826</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\bin\Debug\mishi1.exe">
+      <PackagePath>mishi1.exe</PackagePath>
+      <Modified>2013-05-16T11:30:32.467</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\bin\Debug\mishi1.pdb">
+      <PackagePath>mishi1.pdb</PackagePath>
+      <Modified>2013-05-16T11:30:32.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\Assets\10.mp4">
+      <PackagePath>Assets\10.mp4</PackagePath>
+      <Modified>2013-05-16T01:38:05.788</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\Assets\1号.swf">
+      <PackagePath>Assets\1号.swf</PackagePath>
+      <Modified>2013-05-16T01:58:06.573</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-04-02T15:39:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-05-14T15:10:52.089</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\bin\Debug\Game1.xaml">
+      <PackagePath>Game1.xaml</PackagePath>
+      <Modified>2013-05-16T03:04:56.503</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-07-26T12:23:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-05-16T11:25:56.974</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Vaffle\Documents\Visual Studio 2012\Projects\mishi1\mishi1\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-05-16T01:58:45.663</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

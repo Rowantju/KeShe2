@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="mishi1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:mishi1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="grid1">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFE0B4B4"/>
+                <GradientStop Color="#FFBF5F5F" Offset="0.917"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name="进入游戏" Content="进入游戏" HorizontalAlignment="Left" Height="65" Margin="961,435,0,0" VerticalAlignment="Top" Width="216" Click="Button_Click_1" FontSize="36" FontWeight="Normal" FontFamily="Brush Script Std"/>
+        <TextBlock x:Name="auther" HorizontalAlignment="Left" Margin="980,528,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="139" Width="197" FontSize="22">
+        	<Run Text="Group by："/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="   "/>
+        	<Run Text="-Chuntju"/>
+        	<LineBreak/>
+        	<Run Text="   "/>
+        	<Run Text="-Rowan"/>
+        	<LineBreak/>
+        	<Run Text="   "/>
+        	<Run Text="-Pool"/>
+        </TextBlock>
+        <MediaElement x:Name="strat_flash" HorizontalAlignment="Left" Height="270" Margin="304,208,0,0" VerticalAlignment="Top" Width="452"/>
+        <CaptureElement HorizontalAlignment="Left" Height="100" Margin="1098,52,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Page>
