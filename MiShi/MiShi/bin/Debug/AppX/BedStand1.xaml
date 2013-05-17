@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="MiShi.BedStand1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MiShi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/131.png"/>
+    	<Grid HorizontalAlignment="Left" Height="758" Margin="1240,12,0,-2" VerticalAlignment="Top" Width="114">
+    		<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.PNG" Stretch="Fill"/>
+    	</Grid>
+    	<Image x:Name="MagnifierImage" HorizontalAlignment="Left" Height="100" Margin="662,438,0,0" VerticalAlignment="Top" Width="124" Source="Assets/MagnifierInBox1.png" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5"/>
+    	<Button x:ConnectionId='1' x:Name="MagnifierButton" Content="" HorizontalAlignment="Left" Height="112" Margin="677,426,0,0" VerticalAlignment="Top" Width="90" Opacity="0" BorderThickness="0"                              />
+    	<Button x:ConnectionId='2' x:Name="BackToBedStand0Button" Content="" HorizontalAlignment="Left" Height="74" Margin="263,684,0,0" VerticalAlignment="Top" Width="180" Opacity="0" BorderThickness="0"                                    />
+
+    </Grid>
+</Page>
+

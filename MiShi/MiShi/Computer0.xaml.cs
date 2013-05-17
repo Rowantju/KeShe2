@@ -19,13 +19,49 @@ namespace MiShi
     /// <summary>
     /// 可用于自身或导航至 Frame 内部的空白页。
     /// </summary>
+    
     public sealed partial class Computer0 : Page
     {
         public Computer0()
         {
             this.InitializeComponent();
+            if (InterfacePrint.getIsPrinted() == true)
+            {
+                this.ImagePrinted.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                this.GetPictureButton.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.ImagePrinted.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                this.GetPictureButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsPictureShow() == true)
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsMagnifierShow() == true)
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsKeyShow() == true)
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+
         }
-        private bool IsPrinted = false;
+        
         /// <summary>
         /// 在此页将要在 Frame 中显示时进行调用。
         /// </summary>
@@ -34,17 +70,7 @@ namespace MiShi
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
-
-        private void SetIsPrinted()
-        {
-            IsPrinted = true;
-        }
-
-        private bool GetIsPrinted()
-        {
-            return IsPrinted;
-        }
-
+       
         private void ComputerDownButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
@@ -57,8 +83,20 @@ namespace MiShi
         }
 
         private void GetPictureButton_Click(object sender, RoutedEventArgs e)
-        {
-
+        {         
+            if (Box.getIsPictureShow() == false)
+            {
+                this.ImagePrinted.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                this.GetPictureButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                Box.setIsPictureShow(true);
+                InterfacePrint.setIsPrinted(false);
+                this.Frame.Navigate(typeof(Computer0));
+                
+            }
+            else
+            {
+                //InterfacePrint.setIsPrinted(true);
+            }
         }
     }
 }

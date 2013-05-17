@@ -11,6 +11,11 @@
     	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/04.PNG" Stretch="Fill"/>
     	<Button x:Name="WestLeftButton" Content="" HorizontalAlignment="Left" Margin="22,36,0,0" VerticalAlignment="Top" Opacity="0" BorderThickness="0" Width="75" Height="70" Click="WestLeftButton_Click"/>
     	<Button x:Name="WestRightButton" Content="" HorizontalAlignment="Left" Margin="1139,36,0,0" VerticalAlignment="Top" Opacity="0" BorderThickness="0" Width="75" Height="70" Click="WestRightButton_Click"/>
+    	<Grid HorizontalAlignment="Left" Height="758" Margin="1240,12,0,-2" VerticalAlignment="Top" Width="114">
+    		<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.PNG" Stretch="Fill"/>
+    	</Grid>
 
     </Grid>
 </Page>

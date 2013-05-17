@@ -103,17 +103,17 @@
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AfterPicturePrinted.xaml.cs">
-      <DependentUpon>AfterPicturePrinted.xaml</DependentUpon>
-    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BedStand0.xaml.cs">
+      <DependentUpon>BedStand0.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="BedStand1.xaml.cs">
+      <DependentUpon>BedStand1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Computer0.xaml.cs">
       <DependentUpon>Computer0.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ComputerScreen0.xaml.cs">
-      <DependentUpon>ComputerScreen0.xaml</DependentUpon>
     </Compile>
     <Compile Include="East.xaml.cs">
       <DependentUpon>East.xaml</DependentUpon>
@@ -127,6 +127,12 @@
     </Compile>
     <Compile Include="Start0.xaml.cs">
       <DependentUpon>Start0.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Strongbox0.xaml.cs">
+      <DependentUpon>Strongbox0.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Strongbox1.xaml.cs">
+      <DependentUpon>Strongbox1.xaml</DependentUpon>
     </Compile>
     <Compile Include="West.xaml.cs">
       <DependentUpon>West.xaml</DependentUpon>
@@ -144,6 +150,7 @@
     <Content Include="Assets\11.PNG" />
     <Content Include="Assets\12.PNG" />
     <Content Include="Assets\13.PNG" />
+    <Content Include="Assets\131.png" />
     <Content Include="Assets\14.PNG" />
     <Content Include="Assets\15.PNG" />
     <Content Include="Assets\16.PNG" />
@@ -157,13 +164,21 @@
     <Content Include="Assets\07.PNG" />
     <Content Include="Assets\08.PNG" />
     <Content Include="Assets\09.PNG" />
+    <Content Include="Assets\181.png" />
     <Content Include="Assets\19.PNG" />
     <Content Include="Assets\191.png" />
     <Content Include="Assets\192.png" />
     <Content Include="Assets\193.png" />
+    <Content Include="Assets\Book1.PNG" />
+    <Content Include="Assets\Book11.png" />
+    <Content Include="Assets\book2.PNG" />
+    <Content Include="Assets\KeyInBox.PNG" />
     <Content Include="Assets\Logo.png" />
+    <Content Include="Assets\MagnifierInBox.PNG" />
+    <Content Include="Assets\MagnifierInBox1.png" />
     <Content Include="Assets\NOTE.PNG" />
     <Content Include="Assets\PICTURE.PNG" />
+    <Content Include="Assets\PictureInBox.PNG" />
     <Content Include="Assets\PictureOnTable.png" />
     <Content Include="Assets\SmallLogo.png" />
     <Content Include="Assets\SplashScreen.png" />
@@ -175,7 +190,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="AfterPicturePrinted.xaml">
+    <Page Include="BedStand0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="BedStand1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -184,10 +203,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Computer0.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ComputerScreen0.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -204,6 +219,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Start0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Strongbox0.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Strongbox1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

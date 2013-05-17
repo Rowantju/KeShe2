@@ -24,6 +24,30 @@ namespace MiShi
         public East()
         {
             this.InitializeComponent();
+            if (Box.getIsPictureShow() == true)
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsMagnifierShow() == true)
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsKeyShow() == true)
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
         }
 
         /// <summary>
@@ -43,6 +67,16 @@ namespace MiShi
         private void EastRightButton_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(South));
+        }
+
+        private void BedStandButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(BedStand0));
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Strongbox0));
         }
     }
 }

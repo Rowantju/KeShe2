@@ -24,8 +24,32 @@ namespace MiShi
         public MainPage()
         {
             this.InitializeComponent();
+            if (Box.getIsPictureShow() == true)
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsMagnifierShow() == true)
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsKeyShow() == true)
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
         }
-
+        
         /// <summary>
         /// 在此页将要在 Frame 中显示时进行调用。
         /// </summary>
@@ -38,8 +62,6 @@ namespace MiShi
         {
             ////this.Cursor = Cursors.Hand;
         }
-
-        
 
         private void NorthLeftButton_Click(object sender, RoutedEventArgs e)
         {

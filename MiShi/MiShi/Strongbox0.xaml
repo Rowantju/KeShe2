@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="MiShi.Strongbox0"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MiShi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/17.PNG" Stretch="UniformToFill"/>
+    	<Button x:Name="BackEastButton" Content="" HorizontalAlignment="Left" Height="69" Margin="190,699,0,0" VerticalAlignment="Top" Width="183" Opacity="0" BorderThickness="0" Click="BackEastButton_Click" />
+    	<Button x:Name="ToStrongbox1Button" Content="" HorizontalAlignment="Left" Height="589" Margin="190,86,0,0" VerticalAlignment="Top" Width="847" Opacity="0.6" BorderThickness="0" Click="ToStrongbox1Button_Click"/>
+    	<Grid HorizontalAlignment="Left" Height="758" Margin="1240,12,0,-2" VerticalAlignment="Top" Width="114">
+    		<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.PNG" Stretch="Fill"/>
+    	</Grid>
+
+    </Grid>
+</Page>

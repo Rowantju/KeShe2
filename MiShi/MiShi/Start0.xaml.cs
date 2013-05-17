@@ -19,14 +19,39 @@ namespace MiShi
     /// <summary>
     /// 可用于自身或导航至 Frame 内部的空白页。
     /// </summary>
+    
     public sealed partial class Start0 : Page
     {
-        bool IsPicturePrinted = false;
+        //bool IsPicturePrinted = false;
         // 是否已打印
 
         public Start0()
         {
             this.InitializeComponent();
+            if (Box.getIsPictureShow() == true)
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsMagnifierShow() == true)
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsKeyShow() == true)
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
         }
 
         /// <summary>
@@ -51,6 +76,7 @@ namespace MiShi
                 
             }
              * */
+          
             this.Frame.Navigate(typeof(Computer0));
         }
 
@@ -144,7 +170,8 @@ namespace MiShi
 
         private void PrintPictureButton_Click(object sender, RoutedEventArgs e)
         {
-            this.IsPicturePrinted = true;
+            //this.IsPicturePrinted = true;
+            InterfacePrint.setIsPrinted(true);
         }
             
          

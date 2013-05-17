@@ -112,11 +112,11 @@ namespace MiShi.MiShi_XamlTypeInfo
             }
         }
 
-        private object Activate_0_AfterPicturePrinted() { return new global::MiShi.AfterPicturePrinted(); }
+        private object Activate_0_BedStand0() { return new global::MiShi.BedStand0(); }
 
-        private object Activate_1_Computer0() { return new global::MiShi.Computer0(); }
+        private object Activate_1_BedStand1() { return new global::MiShi.BedStand1(); }
 
-        private object Activate_2_ComputerScreen0() { return new global::MiShi.ComputerScreen0(); }
+        private object Activate_2_Computer0() { return new global::MiShi.Computer0(); }
 
         private object Activate_3_East() { return new global::MiShi.East(); }
 
@@ -126,7 +126,11 @@ namespace MiShi.MiShi_XamlTypeInfo
 
         private object Activate_6_Start0() { return new global::MiShi.Start0(); }
 
-        private object Activate_7_West() { return new global::MiShi.West(); }
+        private object Activate_7_Strongbox0() { return new global::MiShi.Strongbox0(); }
+
+        private object Activate_8_Strongbox1() { return new global::MiShi.Strongbox1(); }
+
+        private object Activate_9_West() { return new global::MiShi.West(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -144,21 +148,21 @@ namespace MiShi.MiShi_XamlTypeInfo
                 xamlType = new global::MiShi.MiShi_XamlTypeInfo.XamlSystemBaseType(typeName, typeof(global::Windows.UI.Xaml.Controls.UserControl));
                 break;
 
-            case "MiShi.AfterPicturePrinted":
-                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.AfterPicturePrinted), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_AfterPicturePrinted;
+            case "MiShi.BedStand0":
+                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.BedStand0), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_0_BedStand0;
+                xamlType = userType;
+                break;
+
+            case "MiShi.BedStand1":
+                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.BedStand1), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_1_BedStand1;
                 xamlType = userType;
                 break;
 
             case "MiShi.Computer0":
                 userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.Computer0), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_1_Computer0;
-                xamlType = userType;
-                break;
-
-            case "MiShi.ComputerScreen0":
-                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.ComputerScreen0), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_2_ComputerScreen0;
+                userType.Activator = Activate_2_Computer0;
                 xamlType = userType;
                 break;
 
@@ -186,9 +190,21 @@ namespace MiShi.MiShi_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+            case "MiShi.Strongbox0":
+                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.Strongbox0), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_7_Strongbox0;
+                xamlType = userType;
+                break;
+
+            case "MiShi.Strongbox1":
+                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.Strongbox1), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_8_Strongbox1;
+                xamlType = userType;
+                break;
+
             case "MiShi.West":
                 userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.West), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_West;
+                userType.Activator = Activate_9_West;
                 xamlType = userType;
                 break;
 

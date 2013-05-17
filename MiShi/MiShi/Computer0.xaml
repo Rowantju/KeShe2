@@ -21,6 +21,11 @@
     			<CompositeTransform SkewX="40"/>
     		</Button.RenderTransform>
     	</Button>
+    	<Grid HorizontalAlignment="Left" Height="758" Margin="1240,12,0,-2" VerticalAlignment="Top" Width="114">
+    		<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.PNG" Stretch="Fill"/>
+    	</Grid>
 
     </Grid>
 </Page>

@@ -21,14 +21,86 @@ namespace MiShi
     /// <summary>
     /// 提供特定于应用程序的行为，以补充默认的应用程序类。
     /// </summary>
+    
+    public static class InterfacePrint
+    {
+        private static bool IsPrinted = false;
+        
+        public static void setIsPrinted(bool b1)
+        {
+            //set { IsPrinted = true; }
+            IsPrinted = b1;
+        }
+        public static bool getIsPrinted()
+        {
+            //get { return IsPrinted; }
+            return IsPrinted;
+        }
+
+    }
+    public static class Magnifier
+    {
+        private static bool IsShow = true;
+        public static void setIsShow(bool b)
+        {
+            IsShow = b;
+        }
+        public static bool getIsShow()
+        {
+            return IsShow;
+        }
+    }
+
+    public static class Box
+    {
+        private static bool IsPictureShow = false;
+        private static bool IsMagnifierShow = false;
+        private static bool IsKeyShow = false;
+        public static void setIsPictureShow(bool b)
+        {
+            IsPictureShow = b;
+        }
+        public static bool getIsPictureShow()
+        {
+            return IsPictureShow;
+        }
+
+        public static void setIsMagnifierShow(bool b)
+        {
+            IsMagnifierShow = b;
+        }
+        public static bool getIsMagnifierShow()
+        {
+            return IsMagnifierShow;
+        }
+
+        public static void setIsKeyShow(bool b)
+        {
+            IsKeyShow = b;
+        }
+        public static bool getIsKeyShow()
+        {
+            return IsKeyShow;
+        }
+    }
+    public static class InitBox
+    {
+        public static void initBox()
+        {
+        }
+    }
+    
     sealed partial class App : Application
     {
         /// <summary>
         /// 初始化单一实例应用程序对象。这是执行的创作代码的第一行，
         /// 逻辑上等同于 main() 或 WinMain()。
         /// </summary>
+
+        
         public App()
         {
+            ///int num = 0;
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }

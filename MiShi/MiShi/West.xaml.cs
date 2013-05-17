@@ -24,6 +24,30 @@ namespace MiShi
         public West()
         {
             this.InitializeComponent();
+            if (Box.getIsPictureShow() == true)
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsMagnifierShow() == true)
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsKeyShow() == true)
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
         }
 
         /// <summary>
