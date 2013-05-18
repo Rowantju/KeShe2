@@ -125,6 +125,9 @@
     <Compile Include="South.xaml.cs">
       <DependentUpon>South.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Strongbox2.xaml.cs">
+      <DependentUpon>Strongbox2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Start0.xaml.cs">
       <DependentUpon>Start0.xaml</DependentUpon>
     </Compile>
@@ -177,6 +180,7 @@
     <Content Include="Assets\MagnifierInBox.PNG" />
     <Content Include="Assets\MagnifierInBox1.png" />
     <Content Include="Assets\NOTE.PNG" />
+    <Content Include="Assets\OpnedSdandbox.PNG" />
     <Content Include="Assets\PICTURE.PNG" />
     <Content Include="Assets\PictureInBox.PNG" />
     <Content Include="Assets\PictureOnTable.png" />
@@ -215,6 +219,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="South.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Strongbox2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

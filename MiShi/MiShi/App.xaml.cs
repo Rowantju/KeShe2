@@ -89,7 +89,80 @@ namespace MiShi
         {
         }
     }
-    
+    public static class Standbox
+    {
+        private static int [] password = { 0, 0, 0, 0 };
+        private static bool HasInitPassword = false;
+        //private int[] num = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+        public static void InitPassword()
+        {
+            Random ra = new Random();
+            for (int i = 0; i < 4; i++)
+            {
+                //password[i] = (new Random()).Next()%10;
+                password[i] = ra.Next(1,9);
+            }
+        }
+        public static void SetHasInitPassword(bool b)
+        {
+            HasInitPassword = b;
+        }
+        public static bool GetHasInitPassword()
+        {
+            return HasInitPassword;
+        }
+
+        public static int GetPassword(int i)
+        {
+            return password[i];
+        }
+        private static int[] passwordShow = { 0, 0, 0, 0 };
+        public static void SetPasswordShowPlus(int i)
+        {
+            if (passwordShow[i] == 9)
+            {
+                passwordShow[i] = 0;
+            }
+            else
+            {
+                passwordShow[i] += 1;
+            }
+           
+        }
+        public static void SetPasswordShowMinus(int i)
+        {
+            if (passwordShow[i] == 0)
+            {
+                passwordShow[i] = 9;
+            }
+            else
+            {
+                passwordShow[i] -= 1;
+            }
+
+        }
+        public static int GetPasswordShow(int i)
+        {           
+                return passwordShow[i];
+        }
+        public static bool Check()
+        {
+            int temp = 0;
+            for (int i = 0; i < 4; i++)
+            {
+                if (password[i].Equals(passwordShow[i]))
+                {
+                    temp++;
+                }
+                else
+                {
+                    temp--;
+                }
+                //return password.Equals(passwordShow);
+            }
+            return (temp==4);
+        }
+    }
     sealed partial class App : Application
     {
         /// <summary>

@@ -52,3 +52,6 @@ D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\obj\Debug\Strongbox0.xaml
 D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\obj\Debug\Strongbox1.g.i.cs
 D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\obj\Debug\Strongbox1.g.cs
 D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\obj\Debug\Strongbox1.xaml
+D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\obj\Debug\Strongbox2.g.i.cs
+D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\obj\Debug\Strongbox2.g.cs
+D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\obj\Debug\Strongbox2.xaml

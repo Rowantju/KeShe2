@@ -116,6 +116,9 @@
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\NOTE.PNG">
       <PackagePath>Assets\NOTE.PNG</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\OpnedSdandbox.PNG">
+      <PackagePath>Assets\OpnedSdandbox.PNG</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\PICTURE.PNG">
       <PackagePath>Assets\PICTURE.PNG</PackagePath>
     </AppxPackagedFile>
@@ -163,6 +166,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\South.xaml">
       <PackagePath>South.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\Strongbox2.xaml">
+      <PackagePath>Strongbox2.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\Start0.xaml">
       <PackagePath>Start0.xaml</PackagePath>

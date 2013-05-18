@@ -124,13 +124,15 @@ namespace MiShi.MiShi_XamlTypeInfo
 
         private object Activate_5_South() { return new global::MiShi.South(); }
 
-        private object Activate_6_Start0() { return new global::MiShi.Start0(); }
+        private object Activate_6_Strongbox2() { return new global::MiShi.Strongbox2(); }
 
-        private object Activate_7_Strongbox0() { return new global::MiShi.Strongbox0(); }
+        private object Activate_7_Start0() { return new global::MiShi.Start0(); }
 
-        private object Activate_8_Strongbox1() { return new global::MiShi.Strongbox1(); }
+        private object Activate_8_Strongbox0() { return new global::MiShi.Strongbox0(); }
 
-        private object Activate_9_West() { return new global::MiShi.West(); }
+        private object Activate_9_Strongbox1() { return new global::MiShi.Strongbox1(); }
+
+        private object Activate_10_West() { return new global::MiShi.West(); }
 
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(string typeName)
@@ -184,27 +186,33 @@ namespace MiShi.MiShi_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+            case "MiShi.Strongbox2":
+                userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.Strongbox2), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_6_Strongbox2;
+                xamlType = userType;
+                break;
+
             case "MiShi.Start0":
                 userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.Start0), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_6_Start0;
+                userType.Activator = Activate_7_Start0;
                 xamlType = userType;
                 break;
 
             case "MiShi.Strongbox0":
                 userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.Strongbox0), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_Strongbox0;
+                userType.Activator = Activate_8_Strongbox0;
                 xamlType = userType;
                 break;
 
             case "MiShi.Strongbox1":
                 userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.Strongbox1), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_8_Strongbox1;
+                userType.Activator = Activate_9_Strongbox1;
                 xamlType = userType;
                 break;
 
             case "MiShi.West":
                 userType = new global::MiShi.MiShi_XamlTypeInfo.XamlUserType(this, typeName, typeof(global::MiShi.West), GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_9_West;
+                userType.Activator = Activate_10_West;
                 xamlType = userType;
                 break;
 
