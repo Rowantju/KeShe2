@@ -114,6 +114,7 @@ namespace MiShi
         {
         }
     }
+    
     public static class Standbox
     {
         private static int [] password = { 0, 0, 0, 0 };
@@ -188,6 +189,17 @@ namespace MiShi
             return (temp==4);
         }
     }
+/*
+    public class Info
+    {
+        private bool IsInfoPictureShow = false;
+        private bool IsInfoMagnifierShow = false;
+        private bool IsInfoKeyShow = false;
+
+
+        
+    }
+ * */
     sealed partial class App : Application
     {
         /// <summary>
@@ -202,6 +214,9 @@ namespace MiShi
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }
+
+        
+
 
         /// <summary>
         /// 在应用程序由最终用户正常启动时进行调用。
