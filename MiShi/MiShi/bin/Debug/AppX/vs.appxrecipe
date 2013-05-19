@@ -16,17 +16,17 @@
     <AppXManifest Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-18T05:17:37.695</Modified>
+      <Modified>2013-05-19T07:05:32.184</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\MiShi.exe">
       <PackagePath>MiShi.exe</PackagePath>
-      <Modified>2013-05-18T06:08:25.852</Modified>
+      <Modified>2013-05-19T07:18:23.729</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\MiShi.pdb">
       <PackagePath>MiShi.pdb</PackagePath>
-      <Modified>2013-05-18T06:08:25.790</Modified>
+      <Modified>2013-05-19T07:18:23.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\01.PNG">
       <PackagePath>Assets\01.PNG</PackagePath>
@@ -136,6 +136,10 @@
       <PackagePath>Assets\book2.PNG</PackagePath>
       <Modified>2013-05-17T12:43:58.202</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\CoverKeyImage.PNG">
+      <PackagePath>Assets\CoverKeyImage.PNG</PackagePath>
+      <Modified>2013-05-19T07:09:43.473</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\KeyInBox.PNG">
       <PackagePath>Assets\KeyInBox.PNG</PackagePath>
       <Modified>2013-05-17T12:43:58.195</Modified>
@@ -226,7 +230,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\Strongbox2.xaml">
       <PackagePath>Strongbox2.xaml</PackagePath>
-      <Modified>2013-05-18T05:15:34.504</Modified>
+      <Modified>2013-05-19T07:18:14.126</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\Start0.xaml">
       <PackagePath>Start0.xaml</PackagePath>
@@ -246,7 +250,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-18T05:17:37.323</Modified>
+      <Modified>2013-05-19T07:05:31.124</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -24,8 +24,65 @@ namespace MiShi
         public Strongbox2()
         {
             this.InitializeComponent();
+            if (Box.getIsPictureShow() == true)
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsMagnifierShow() == true)
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.MagnifierInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsKeyShow() == true)
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+            else
+            {
+                this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            if (Box.getIsKeyShow() == true)
+            {
+                Key.setIsKeyShow(false);
+                Key.setIsRectangleShow(true);
+
+            }
+            else
+            {
+                Key.setIsKeyShow(true);
+                Key.setIsRectangleShow(false);
+            }
+            InitRectangleAndButtonShow();
         }
 
+        void InitRectangleAndButtonShow()
+        {
+            if (Key.getIsRectangleShow() == true)
+            {
+                this.CoverKeyImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                this.GetKeyButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+            else
+            {
+                this.CoverKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                this.GetKeyButton.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            }
+        }
+        /*
+        void InitKeyShow(bool b)
+        {
+            if(Key.getIsKeyShow() == true)
+            {
+                this.
+        }
+         * */
         /// <summary>
         /// 在此页将要在 Frame 中显示时进行调用。
         /// </summary>
@@ -33,6 +90,22 @@ namespace MiShi
         /// 属性通常用于配置页。</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
+        }
+
+        private void GetKeyButton_Click(object sender, RoutedEventArgs e)
+        {
+            Key.setIsKeyShow(false);
+            Key.setIsRectangleShow(true);
+            Box.setIsKeyShow(true);
+            //this.CoverKeyRectangle.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.GetKeyButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            //this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.Frame.Navigate(typeof(Strongbox2));
+        }
+
+        private void BackStrongbox1Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(East));
         }
     }
 }

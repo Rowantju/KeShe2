@@ -175,6 +175,7 @@
     <Content Include="Assets\Book1.PNG" />
     <Content Include="Assets\Book11.png" />
     <Content Include="Assets\book2.PNG" />
+    <Content Include="Assets\CoverKeyImage.PNG" />
     <Content Include="Assets\KeyInBox.PNG" />
     <Content Include="Assets\Logo.png" />
     <Content Include="Assets\MagnifierInBox.PNG" />

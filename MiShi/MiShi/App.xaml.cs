@@ -50,6 +50,31 @@ namespace MiShi
             return IsShow;
         }
     }
+    public static class Key
+    {
+        private static bool IsKeyShow = true;
+        private static bool IsRectangleShow = false;
+
+
+        public static void setIsKeyShow(bool b)
+        {
+            IsKeyShow = b;
+        }
+        public static bool getIsKeyShow()
+        {
+            return IsKeyShow;
+        }
+
+        public static void setIsRectangleShow(bool b)
+        {
+            IsRectangleShow = b;
+        }
+        public static bool getIsRectangleShow()
+        {
+            return IsRectangleShow;
+        }
+
+    }
 
     public static class Box
     {

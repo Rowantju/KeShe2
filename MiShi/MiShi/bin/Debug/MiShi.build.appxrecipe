@@ -100,6 +100,9 @@
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\book2.PNG">
       <PackagePath>Assets\book2.PNG</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\CoverKeyImage.PNG">
+      <PackagePath>Assets\CoverKeyImage.PNG</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\Assets\KeyInBox.PNG">
       <PackagePath>Assets\KeyInBox.PNG</PackagePath>
     </AppxPackagedFile>
