@@ -8,15 +8,21 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-    	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/131.png"/>
+    	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/131.jpg"/>
     	<Grid HorizontalAlignment="Left" Height="758" Margin="1240,12,0,-2" VerticalAlignment="Top" Width="114">
-    		<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.PNG" Stretch="Fill"/>
-    		<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.PNG" Stretch="Fill"/>
-    		<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.jpg" Stretch="Fill"/>
+    		<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.jpg" Stretch="Fill"/>
+    		<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.jpg" Stretch="Fill"/>
+    		<Button x:Name="InfoPictureButton" Content="" HorizontalAlignment="Left" Height="67" Margin="77,83,0,0" VerticalAlignment="Top" Width="37" Opacity="0" BorderThickness="0"/>
+    		<Button x:Name="InfoMagnifierButton" Content="" HorizontalAlignment="Left" Height="66" Margin="74,248,0,0" VerticalAlignment="Top" Width="40" Opacity="0" BorderThickness="0"/>
+    		<Button x:Name="InfoKeyButton" Content="" HorizontalAlignment="Left" Height="64" Margin="82,416,0,0" VerticalAlignment="Top" Width="32" Opacity="0" BorderThickness="0"/>
     	</Grid>
     	<Image x:Name="MagnifierImage" HorizontalAlignment="Left" Height="100" Margin="662,438,0,0" VerticalAlignment="Top" Width="124" Source="Assets/MagnifierInBox1.png" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5"/>
     	<Button x:ConnectionId='1' x:Name="MagnifierButton" Content="" HorizontalAlignment="Left" Height="112" Margin="677,426,0,0" VerticalAlignment="Top" Width="90" Opacity="0" BorderThickness="0"                              />
     	<Button x:ConnectionId='2' x:Name="BackToBedStand0Button" Content="" HorizontalAlignment="Left" Height="74" Margin="263,684,0,0" VerticalAlignment="Top" Width="180" Opacity="0" BorderThickness="0"                                    />
+    	<Image x:Name="InfoPictureImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
+    	<Image x:Name="InfoMagnifierImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
+    	<Image x:Name="InfoKeyImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
 
     </Grid>
 </Page>

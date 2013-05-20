@@ -68,5 +68,13 @@ namespace MiShi
         {
             this.Frame.Navigate(typeof(MainPage));
         }
+
+        private void InfoPictureButton_Click(object sender, RoutedEventArgs e)
+        {
+           // this.InfoImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            //this.InfoImage.Source;
+            //Windows.UI.Xaml.Media.ImageSource("Assets/Book1.PNG");//Windows.UI.Xaml.Controls.Image.Source.get("Assets/Book1.PNG");
+            
+        }
     }
 }

@@ -8,15 +8,21 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-    	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/OpnedSdandbox.PNG"/>
+    	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/OpnedSdandbox.jpg"/>
     	<Button x:Name="GetKeyButton" HorizontalAlignment="Left" Height="43" Margin="551,529,0,0" VerticalAlignment="Top" Width="146" Opacity="0" BorderThickness="0" Click="GetKeyButton_Click"/>
     	<Grid HorizontalAlignment="Left" Height="758" Margin="1240,12,0,-2" VerticalAlignment="Top" Width="114">
-    		<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.PNG" Stretch="Fill"/>
-    		<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.PNG" Stretch="Fill"/>
-    		<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.jpg" Stretch="Fill"/>
+    		<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.jpg" Stretch="Fill"/>
+    		<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.jpg" Stretch="Fill"/>
+    		<Button x:Name="InfoPictureButton" Content="" HorizontalAlignment="Left" Height="67" Margin="77,83,0,0" VerticalAlignment="Top" Width="37" Opacity="0" BorderThickness="0"/>
+    		<Button x:Name="InfoMagnifierButton" Content="" HorizontalAlignment="Left" Height="66" Margin="74,248,0,0" VerticalAlignment="Top" Width="40" Opacity="0" BorderThickness="0"/>
+    		<Button x:Name="InfoKeyButton" Content="" HorizontalAlignment="Left" Height="64" Margin="82,416,0,0" VerticalAlignment="Top" Width="32" Opacity="0" BorderThickness="0"/>
     	</Grid>
     	<Button x:Name="BackStrongbox1Button" Content="" HorizontalAlignment="Left" Height="63" Margin="190,700,0,0" VerticalAlignment="Top" Width="177" Opacity="0" BorderThickness="0" Click="BackStrongbox1Button_Click"/>
-    	<Image x:Name="CoverKeyImage" HorizontalAlignment="Left" Height="66" Margin="523,517,0,0" VerticalAlignment="Top" Width="196" Source="Assets/CoverKeyImage.PNG" Stretch="UniformToFill"/>
+    	<Image x:Name="CoverKeyImage" HorizontalAlignment="Left" Height="66" Margin="523,517,0,0" VerticalAlignment="Top" Width="196" Source="Assets/CoverKeyImage.jpg" Stretch="UniformToFill"/>
+    	<Image x:Name="InfoPictureImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
+    	<Image x:Name="InfoMagnifierImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
+    	<Image x:Name="InfoKeyImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
 
     </Grid>
 </Page>

@@ -1,1 +1,1 @@
-D:\users\rowan\documents\GitHub\KeShe2\MiShi\MiShi\MiShi.csproj;neutral
+D:\keshe2\MiShi\MiShi\MiShi.csproj;neutral

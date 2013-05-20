@@ -8,15 +8,21 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/01.PNG" Stretch="Fill"/>
+        <Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/01.jpg" Stretch="Fill"/>
         <Button x:Name="NorthLeftButton" Content="" HorizontalAlignment="Left" Height="70" Margin="20,39,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Opacity="0" Click="NorthLeftButton_Click"/>
         <Button x:Name="NorthRightButton" Content="" HorizontalAlignment="Left" Margin="1141,39,0,0" VerticalAlignment="Top" FontSize="24" Height="70" Width="75" BorderThickness="0" Click="NorthRightButton_Click" Opacity="0"/>
         <Button x:Name="EnlargeComputerButton" Content="" HorizontalAlignment="Left" Height="85" Margin="217,350,0,0" VerticalAlignment="Top" Width="93" Opacity="0" BorderThickness="0" Click="EnlargeComputerButton_Click"/>
         <Grid HorizontalAlignment="Left" Height="758" Margin="1240,12,0,0" VerticalAlignment="Top" Width="114">
-        	<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.PNG" Stretch="Fill"/>
-        	<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.PNG" Stretch="Fill"/>
-        	<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.PNG" Stretch="Fill"/>
+        	<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.jpg" Stretch="Fill"/>
+        	<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.jpg" Stretch="Fill"/>
+        	<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.jpg" Stretch="Fill"/>
+        	<Button x:Name="InfoPictureButton" Content="" HorizontalAlignment="Left" Height="67" Margin="77,83,0,0" VerticalAlignment="Top" Width="37" Opacity="0" BorderThickness="0"/>
+        	<Button x:Name="InfoMagnifierButton" Content="" HorizontalAlignment="Left" Height="66" Margin="74,248,0,0" VerticalAlignment="Top" Width="40" Opacity="0" BorderThickness="0"/>
+        	<Button x:Name="InfoKeyButton" Content="" HorizontalAlignment="Left" Height="64" Margin="82,416,0,0" VerticalAlignment="Top" Width="32" Opacity="0" BorderThickness="0"/>
         </Grid>
+        <Image x:Name="InfoPictureImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
+        <Image x:Name="InfoMagnifierImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
+        <Image x:Name="InfoKeyImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
 
     </Grid>
 </Page>

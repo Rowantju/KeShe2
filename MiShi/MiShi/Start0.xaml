@@ -8,29 +8,35 @@
     mc:Ignorable="d">
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-    	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/06.PNG" Stretch="UniformToFill"/>
+    	<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/06.jpg" Stretch="UniformToFill"/>
     	<Button x:Name="ComputerScreenDownButton" Content="" HorizontalAlignment="Left" Height="67" Margin="333,691,0,0" VerticalAlignment="Top" Width="180" BorderThickness="0" Opacity="0" Click="ComputerScreenDownButton_Click" />
     	<Button x:Name="StartBack" Content="" HorizontalAlignment="Left" Height="35" Margin="0,733,0,0" VerticalAlignment="Top" Width="218" Opacity="0.6" BorderThickness="0" Click="StartBack_Click"/>
     	<Grid x:Name="GridChoice" HorizontalAlignment="Left" Height="211" Margin="0,517,0,0" VerticalAlignment="Top" Width="218">
 
-    		<Image x:Name="ChoiceImage" Source="Assets/19.PNG" Margin="0,0,5,0" Stretch="UniformToFill" Visibility="Collapsed"/>
+    		<Image x:Name="ChoiceImage" Source="Assets/19.jpg" Margin="0,0,5,0" Stretch="UniformToFill" Visibility="Collapsed"/>
 
     		<Button x:Name="PictureButton" HorizontalAlignment="Left" Height="74" VerticalAlignment="Top" Width="218" Opacity="0.6" BorderThickness="0" Click="PictureButton_Click" Visibility="Collapsed"/>
     		<Button x:Name="VideoButton" Content="" HorizontalAlignment="Left" Height="70" Margin="0,74,0,0" VerticalAlignment="Top" Width="218" Opacity="0.6" BorderThickness="0" Click="VideoButton_Click" Visibility="Collapsed"/>
     		<Button x:Name="NoteButton" HorizontalAlignment="Left" Height="67" Margin="0,144,0,0" VerticalAlignment="Top" Width="218" Opacity="0.6" BorderThickness="0" Click="NoteButton_Click" Visibility="Collapsed"/>
     	</Grid>
-    	<Image x:Name="VideoImage" HorizontalAlignment="Left" Height="140" Margin="78,109,0,0" VerticalAlignment="Top" Width="179" Source="Assets/VIDEO.PNG" Visibility="Collapsed"/>
-    	<Image x:Name="NoteImage" HorizontalAlignment="Left" Height="160" Margin="631,109,0,0" VerticalAlignment="Top" Width="225" Source="Assets/NOTE.PNG" Visibility="Collapsed"/>
-    	<Image x:Name="PictureImage" HorizontalAlignment="Left" Height="346" Margin="530,336,0,0" VerticalAlignment="Top" Width="499" Source="Assets/PICTURE.PNG" Visibility="Collapsed"/>
+    	<Image x:Name="VideoImage" HorizontalAlignment="Left" Height="140" Margin="78,109,0,0" VerticalAlignment="Top" Width="179" Source="Assets/VIDEO.jpg" Visibility="Collapsed"/>
+    	<Image x:Name="NoteImage" HorizontalAlignment="Left" Height="160" Margin="631,109,0,0" VerticalAlignment="Top" Width="225" Source="Assets/NOTE.jpg" Visibility="Collapsed"/>
+    	<Image x:Name="PictureImage" HorizontalAlignment="Left" Height="346" Margin="530,336,0,0" VerticalAlignment="Top" Width="499" Source="Assets/PICTURE.jpg" Visibility="Collapsed"/>
     	<Button x:Name="ClosePictureButton" Content="" HorizontalAlignment="Left" Height="34" Margin="984,336,0,0" VerticalAlignment="Top" Width="45" BorderThickness="0" Opacity="0.6" Click="ClosePictureButton_Click" Visibility="Collapsed"/>
     	<Button x:Name="PrintPictureButton" Content="" HorizontalAlignment="Left" Height="33" Margin="731,636,0,0" VerticalAlignment="Top" Width="96" BorderThickness="0" Opacity="0.6" Click="PrintPictureButton_Click"/>
     	<Button x:Name="CloseVideoButton" Content="Button" HorizontalAlignment="Left" Height="22" Margin="232,109,0,0" VerticalAlignment="Top" Width="25" Opacity="0.6" BorderThickness="0" Click="CloseVideoButton_Click" Visibility="Collapsed"/>
     	<Button x:Name="CloseNoteButton" Content="Button" HorizontalAlignment="Left" Height="29" Margin="827,109,0,0" VerticalAlignment="Top" Width="29" Opacity="0.6" BorderThickness="0" Click="CloseNoteButton_Click" Visibility="Collapsed"/>
     	<Grid HorizontalAlignment="Left" Height="758" Margin="1240,12,0,-2" VerticalAlignment="Top" Width="114">
-    		<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.PNG" Stretch="Fill"/>
-    		<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.PNG" Stretch="Fill"/>
-    		<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.PNG" Stretch="Fill"/>
+    		<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.jpg" Stretch="Fill"/>
+    		<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.jpg" Stretch="Fill"/>
+    		<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.jpg" Stretch="Fill"/>
+    		<Button x:Name="InfoPictureButton" Content="" HorizontalAlignment="Left" Height="67" Margin="77,83,0,0" VerticalAlignment="Top" Width="37" Opacity="0" BorderThickness="0"/>
+    		<Button x:Name="InfoMagnifierButton" Content="" HorizontalAlignment="Left" Height="66" Margin="74,248,0,0" VerticalAlignment="Top" Width="40" Opacity="0" BorderThickness="0"/>
+    		<Button x:Name="InfoKeyButton" Content="" HorizontalAlignment="Left" Height="64" Margin="82,416,0,0" VerticalAlignment="Top" Width="32" Opacity="0" BorderThickness="0"/>
     	</Grid>
+    	<Image x:Name="InfoPictureImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
+    	<Image x:Name="InfoMagnifierImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
+    	<Image x:Name="InfoKeyImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876"/>
 
     </Grid>
 </Page>

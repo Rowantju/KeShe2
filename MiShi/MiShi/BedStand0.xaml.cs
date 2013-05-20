@@ -68,5 +68,18 @@ namespace MiShi
         {
             this.Frame.Navigate(typeof(BedStand1));
         }
+
+        private void InfoPictureButton_Click(object sender, RoutedEventArgs e)
+        {
+            if(this.InfoMagnifierImage.Visibility == Windows.UI.Xaml.Visibility.Visible)
+            {
+                this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            }
+             if(this.InfoKeyImage.Visibility == Windows.UI.Xaml.Visibility.Visible)
+            {
+                this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;                
+            }
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+        }
     }
 }
