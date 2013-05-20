@@ -142,6 +142,15 @@
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\VIDEO.jpg">
       <PackagePath>Assets\VIDEO.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\图片.jpg">
+      <PackagePath>Assets\图片.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\放大镜.jpg">
+      <PackagePath>Assets\放大镜.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\钥匙1.jpg">
+      <PackagePath>Assets\钥匙1.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\MagnifierInBox1.png">
       <PackagePath>Assets\MagnifierInBox1.png</PackagePath>
     </AppxPackagedFile>

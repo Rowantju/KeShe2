@@ -52,6 +52,11 @@ namespace MiShi
             {
                 this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             }
+
+            // 初始化最初的图片信息全部不显示
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
 
         /// <summary>
@@ -172,6 +177,35 @@ namespace MiShi
         {
             //this.IsPicturePrinted = true;
             InterfacePrint.setIsPrinted(true);
+        }
+
+        private void InfoPictureButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+        }
+
+        private void InfoMagnifierButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+        }
+
+        private void InfoKeyButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+        }
+
+        private void InfoCloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
             
          

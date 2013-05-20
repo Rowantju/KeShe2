@@ -190,6 +190,9 @@
     <Content Include="Assets\SplashScreen.jpg" />
     <Content Include="Assets\StoreLogo.jpg" />
     <Content Include="Assets\VIDEO.jpg" />
+    <Content Include="Assets\图片.jpg" />
+    <Content Include="Assets\放大镜.jpg" />
+    <Content Include="Assets\钥匙1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">

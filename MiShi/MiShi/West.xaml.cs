@@ -48,6 +48,11 @@ namespace MiShi
             {
                 this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             }
+
+            // 初始化最初的图片信息全部不显示
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
 
         /// <summary>
@@ -69,12 +74,35 @@ namespace MiShi
             this.Frame.Navigate(typeof(MainPage));
         }
 
+       
+
         private void InfoPictureButton_Click(object sender, RoutedEventArgs e)
         {
-           // this.InfoImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
-            //this.InfoImage.Source;
-            //Windows.UI.Xaml.Media.ImageSource("Assets/Book1.PNG");//Windows.UI.Xaml.Controls.Image.Source.get("Assets/Book1.PNG");
-            
+            this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+        }
+
+        private void InfoMagnifierButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+        }
+
+        private void InfoKeyButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+        }
+
+        private void InfoCloseButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
     }
 }
