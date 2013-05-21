@@ -16,14 +16,21 @@
     		<Button x:Name="InfoPictureButton" Content="" HorizontalAlignment="Left" Height="67" Margin="77,83,0,0" VerticalAlignment="Top" Opacity="0" BorderThickness="0" Width="37" Click="InfoPictureButton_Click"/>
     		<Button x:Name="InfoMagnifierButton" Content="" HorizontalAlignment="Left" Height="66" Margin="74,248,0,0" VerticalAlignment="Top" Width="40" Opacity="0" BorderThickness="0" Click="InfoMagnifierButton_Click"/>
     		<Button x:Name="InfoKeyButton" Content="" HorizontalAlignment="Left" Height="64" Margin="82,416,0,0" VerticalAlignment="Top" Opacity="0" BorderThickness="0" Width="32" Click="InfoKeyButton_Click"/>
+    		<Image x:Name="KeyChosenImage" HorizontalAlignment="Left" Height="29" Margin="0,434,0,0" VerticalAlignment="Top" Width="30" Source="Assets/对勾1.jpg" Stretch="Fill"/>
+    		<Image x:Name="PictureChosenImage" HorizontalAlignment="Left" Height="33" Margin="0,103,0,0" VerticalAlignment="Top" Width="30" Stretch="UniformToFill" Source="Assets/对勾1.jpg"/>
+    		<Image x:Name="MagnifierChosenImage" HorizontalAlignment="Left" Height="32" Margin="0,262,0,0" VerticalAlignment="Top" Width="30" Source="Assets/对勾1.jpg" Stretch="UniformToFill"/>
+    		<Button x:Name="PictureChosenButton" Content="" HorizontalAlignment="Left" Height="68" Margin="21,30,0,0" VerticalAlignment="Top" Width="67" BorderThickness="0" Click="PictureChosenButton_Click" Opacity="0"/>
+    		<Button x:Name="MagnifierChosenButton" Content="" HorizontalAlignment="Left" Height="66" Margin="21,191,0,0" VerticalAlignment="Top" Width="67" BorderThickness="0" Opacity="0" Click="MagnifierChosenButton_Click"/>
+    		<Button x:Name="KeyChosenButton" Content="" HorizontalAlignment="Left" Height="73" Margin="21,349,0,0" VerticalAlignment="Top" Width="67" BorderThickness="0" Opacity="0" Click="KeyChosenButton_Click"/>
     	</Grid>
-    	<Image x:Name="MagnifierImage" HorizontalAlignment="Left" Height="100" Margin="662,438,0,0" VerticalAlignment="Top" Width="124" Source="Assets/MagnifierInBox1.png" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5"/>
+    	<Image x:Name="MagnifierImage" HorizontalAlignment="Left" Height="100" Margin="662,438,0,0" VerticalAlignment="Top" Width="124" Source="Assets/信封1.jpg" Stretch="UniformToFill" RenderTransformOrigin="0.5,0.5"/>
     	<Button x:Name="MagnifierButton" Content="" HorizontalAlignment="Left" Height="112" Margin="677,426,0,0" VerticalAlignment="Top" Width="90" Opacity="0" BorderThickness="0" Click="MagnifierButton_Click"/>
     	<Button x:Name="BackToBedStand0Button" Content="" HorizontalAlignment="Left" Height="74" Margin="263,684,0,0" VerticalAlignment="Top" Width="180" Opacity="0" BorderThickness="0" Click="BackToBedStand0Button_Click"/>
     	<Image x:Name="InfoPictureImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876" Source="Assets/图片.jpg" Stretch="Fill"/>
-    	<Image x:Name="InfoMagnifierImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876" Source="Assets/放大镜.jpg" Stretch="Fill"/>
+    	<Image x:Name="InfoMagnifierImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876" Source="Assets/信封1.jpg" Stretch="Fill"/>
     	<Image x:Name="InfoKeyImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876" Source="Assets/钥匙1.jpg" Stretch="Fill"/>
     	<Button x:Name="InfoCloseButton" Content="" HorizontalAlignment="Left" Height="54" Margin="1011,128,0,0" VerticalAlignment="Top" Width="53" Opacity="0" BorderThickness="0" Click="InfoCloseButton_Click"/>
+    	<TextBlock x:Name="PictureTimeText" HorizontalAlignment="Left" Height="33" Margin="792,557,0,0" TextWrapping="Wrap" Text="2012.12.12" VerticalAlignment="Top" Width="144" FontSize="29.333" Foreground="#FF0007FF"/>
 
     </Grid>
 </Page>

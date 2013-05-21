@@ -112,3 +112,6 @@ D:\keshe2\MiShi\MiShi\obj\Debug\pri.resfiles
 D:\keshe2\MiShi\MiShi\obj\Debug\LanguageQualifiers.txt
 D:\keshe2\MiShi\MiShi\obj\Debug\ProjectArchitectures.txt
 D:\keshe2\MiShi\MiShi\bin\Debug\MiShi.build.appxrecipe
+D:\keshe2\MiShi\MiShi\obj\Debug\OpenedDoor.g.i.cs
+D:\keshe2\MiShi\MiShi\obj\Debug\OpenedDoor.g.cs
+D:\keshe2\MiShi\MiShi\obj\Debug\OpenedDoor.xaml

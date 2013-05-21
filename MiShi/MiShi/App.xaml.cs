@@ -108,13 +108,7 @@ namespace MiShi
             return IsKeyShow;
         }
     }
-    public static class InitBox
-    {
-        public static void initBox()
-        {
-        }
-    }
-    
+  
     public static class Standbox
     {
         private static int [] password = { 0, 0, 0, 0 };
@@ -123,12 +117,34 @@ namespace MiShi
         public static void InitPassword()
         {
             Random ra = new Random();
+            password[0] = ra.Next(0, 4);
+            if (password[0] == 3)
+            {
+                password[1] = ra.Next(0, 2);
+            }
+            else
+            {
+                password[1] = ra.Next(0, 10);
+            }
+            password[2] = ra.Next(0, 4);
+            if (password[2] == 3)
+            {
+                password[3] = 0;
+            }
+            else
+            {
+                password[3] = ra.Next(0, 10);
+            }
+            /*
             for (int i = 0; i < 4; i++)
             {
                 //password[i] = (new Random()).Next()%10;
                 password[i] = ra.Next(1,9);
             }
+             * */
         }
+        //Random ra1 = new Random();
+       
         public static void SetHasInitPassword(bool b)
         {
             HasInitPassword = b;

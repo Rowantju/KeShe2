@@ -112,11 +112,14 @@
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\MagnifierInBox.jpg">
       <PackagePath>Assets\MagnifierInBox.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\MagnifierInBox1.jpg">
-      <PackagePath>Assets\MagnifierInBox1.jpg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\NOTE.jpg">
       <PackagePath>Assets\NOTE.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\NOTE2.jpg">
+      <PackagePath>Assets\NOTE2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\OpenedDoor.jpg">
+      <PackagePath>Assets\OpenedDoor.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\OpnedSdandbox.jpg">
       <PackagePath>Assets\OpnedSdandbox.jpg</PackagePath>
@@ -142,8 +145,14 @@
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\VIDEO.jpg">
       <PackagePath>Assets\VIDEO.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\信封1.jpg">
+      <PackagePath>Assets\信封1.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\图片.jpg">
       <PackagePath>Assets\图片.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\对勾1.jpg">
+      <PackagePath>Assets\对勾1.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\放大镜.jpg">
       <PackagePath>Assets\放大镜.jpg</PackagePath>
@@ -174,6 +183,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\OpenedDoor.xaml">
+      <PackagePath>OpenedDoor.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\South.xaml">
       <PackagePath>South.xaml</PackagePath>

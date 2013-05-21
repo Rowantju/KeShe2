@@ -121,6 +121,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="OpenedDoor.xaml.cs">
+      <DependentUpon>OpenedDoor.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="South.xaml.cs">
       <DependentUpon>South.xaml</DependentUpon>
@@ -179,9 +182,10 @@
     <Content Include="Assets\KeyInBox.jpg" />
     <Content Include="Assets\Logo.jpg" />
     <Content Include="Assets\MagnifierInBox.jpg" />
-    <Content Include="Assets\MagnifierInBox1.jpg" />
     <Content Include="Assets\MagnifierInBox1.png" />
     <Content Include="Assets\NOTE.jpg" />
+    <Content Include="Assets\NOTE2.jpg" />
+    <Content Include="Assets\OpenedDoor.jpg" />
     <Content Include="Assets\OpnedSdandbox.jpg" />
     <Content Include="Assets\PICTURE.jpg" />
     <Content Include="Assets\PictureInBox.jpg" />
@@ -190,7 +194,9 @@
     <Content Include="Assets\SplashScreen.jpg" />
     <Content Include="Assets\StoreLogo.jpg" />
     <Content Include="Assets\VIDEO.jpg" />
+    <Content Include="Assets\信封1.jpg" />
     <Content Include="Assets\图片.jpg" />
+    <Content Include="Assets\对勾1.jpg" />
     <Content Include="Assets\放大镜.jpg" />
     <Content Include="Assets\钥匙1.jpg" />
   </ItemGroup>
@@ -222,6 +228,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="OpenedDoor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="South.xaml">
       <SubType>Designer</SubType>

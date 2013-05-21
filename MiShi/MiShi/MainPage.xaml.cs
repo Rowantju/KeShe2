@@ -52,8 +52,26 @@ namespace MiShi
             this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+            this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+            this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+            if (Standbox.GetHasInitPassword() == false)
+            {
+                Standbox.InitPassword();
+                Standbox.SetHasInitPassword(true);
+            }
         }
-        
+
+
+        private void InitPictureTimeText()
+        {
+            this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.PictureTimeText.Text = "2010.09." + Standbox.GetPassword(2).ToString() + Standbox.GetPassword(3).ToString();
+        }
         /// <summary>
         /// 在此页将要在 Frame 中显示时进行调用。
         /// </summary>
@@ -87,11 +105,14 @@ namespace MiShi
             this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+            InitPictureTimeText();
         }
 
         private void InfoMagnifierButton_Click(object sender, RoutedEventArgs e)
         {
             this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
         }
@@ -100,6 +121,7 @@ namespace MiShi
         {
             this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
 
         }
@@ -109,6 +131,73 @@ namespace MiShi
             this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+            this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+        }
+
+        private void PictureChosenButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.PictureChosenImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed)
+            {
+                if ((this.InfoMagnifierImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed)
+                    && (this.InfoKeyImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed))
+                {
+                    this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                    this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                    this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                }
+            }
+            else
+            {
+                if (this.InfoPictureImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed)
+                {
+                    this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                }
+            }
+        }
+
+        private void MagnifierChosenButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.MagnifierChosenImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed)
+            {
+                if ((this.InfoPictureImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed)
+                    && (this.InfoKeyImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed))
+                {
+                    this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                    this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                    this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                }
+            }
+            else
+            {
+                if (this.InfoMagnifierImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed)
+                {
+                    this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                }
+            }
+        }
+
+        private void KeyChosenButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (this.KeyChosenImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed)
+            {
+                if ((this.InfoPictureImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed)
+                    && (this.InfoMagnifierImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed))
+                {
+                    this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                    //this.OpenDoorButton.Visibility = Windows.UI.Xaml.Visibility.Visible;
+                    this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                    this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                }
+            }
+            else
+            {
+                if (this.InfoKeyImage.Visibility == Windows.UI.Xaml.Visibility.Collapsed)
+                {
+                    this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                    //this.OpenDoorButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+                }
+            }
         }
         
     }

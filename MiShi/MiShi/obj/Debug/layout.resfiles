@@ -29,9 +29,10 @@ Assets\CoverKeyImage.jpg
 Assets\KeyInBox.jpg
 Assets\Logo.jpg
 Assets\MagnifierInBox.jpg
-Assets\MagnifierInBox1.jpg
 Assets\MagnifierInBox1.png
 Assets\NOTE.jpg
+Assets\NOTE2.jpg
+Assets\OpenedDoor.jpg
 Assets\OpnedSdandbox.jpg
 Assets\PICTURE.jpg
 Assets\PictureInBox.jpg
@@ -40,8 +41,10 @@ Assets\SmallLogo.jpg
 Assets\SplashScreen.jpg
 Assets\StoreLogo.jpg
 Assets\VIDEO.jpg
+Assets\对勾1.jpg
 Assets\放大镜.jpg
 Assets\图片.jpg
+Assets\信封1.jpg
 Assets\钥匙1.jpg
 App.xaml
 BedStand0.xaml
@@ -50,6 +53,7 @@ Common\StandardStyles.xaml
 Computer0.xaml
 East.xaml
 MainPage.xaml
+OpenedDoor.xaml
 South.xaml
 Start0.xaml
 Strongbox0.xaml
