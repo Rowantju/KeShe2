@@ -91,15 +91,6 @@
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\193.jpg">
       <PackagePath>Assets\193.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\Book1.jpg">
-      <PackagePath>Assets\Book1.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\Book11.jpg">
-      <PackagePath>Assets\Book11.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\book2.jpg">
-      <PackagePath>Assets\book2.jpg</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\CoverKeyImage.jpg">
       <PackagePath>Assets\CoverKeyImage.jpg</PackagePath>
     </AppxPackagedFile>
@@ -111,9 +102,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\MagnifierInBox.jpg">
       <PackagePath>Assets\MagnifierInBox.jpg</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\NOTE.jpg">
-      <PackagePath>Assets\NOTE.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\NOTE2.jpg">
       <PackagePath>Assets\NOTE2.jpg</PackagePath>

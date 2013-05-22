@@ -68,6 +68,8 @@ namespace MiShi
             this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
 
+            
+
         }
 
         void initStandboxShow()
@@ -106,6 +108,7 @@ namespace MiShi
         private void BackStrongbox0_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(Strongbox0));
+            Standbox.SetPasswordShowZeros();
         }
 
         private void PlusOne_Click(object sender, RoutedEventArgs e)
@@ -113,7 +116,10 @@ namespace MiShi
             Standbox.SetPasswordShowPlus(0);
             if (Standbox.Check() == true)
             {
-                this.Frame.Navigate(typeof(Strongbox2));
+                if (this.MagnifierInBox.Visibility == Windows.UI.Xaml.Visibility.Visible)
+                    this.Frame.Navigate(typeof(Strongbox2));
+                else
+                    this.Frame.Navigate(typeof(Strongbox1));
             }
             else
             {
@@ -126,7 +132,10 @@ namespace MiShi
             Standbox.SetPasswordShowPlus(1);
             if (Standbox.Check() == true)
             {
-                this.Frame.Navigate(typeof(Strongbox2));
+                if (this.MagnifierInBox.Visibility == Windows.UI.Xaml.Visibility.Visible)
+                    this.Frame.Navigate(typeof(Strongbox2));
+                else
+                    this.Frame.Navigate(typeof(Strongbox1));
             }
             else
             {
@@ -139,7 +148,10 @@ namespace MiShi
             Standbox.SetPasswordShowPlus(2);
             if (Standbox.Check() == true)
             {
-                this.Frame.Navigate(typeof(Strongbox2));
+                if (this.MagnifierInBox.Visibility == Windows.UI.Xaml.Visibility.Visible)
+                    this.Frame.Navigate(typeof(Strongbox2));
+                else
+                    this.Frame.Navigate(typeof(Strongbox1));
             }
             else
             {
@@ -152,7 +164,10 @@ namespace MiShi
             Standbox.SetPasswordShowPlus(3);
             if (Standbox.Check() == true)
             {
-                this.Frame.Navigate(typeof(Strongbox2));
+                if (this.MagnifierInBox.Visibility == Windows.UI.Xaml.Visibility.Visible)
+                    this.Frame.Navigate(typeof(Strongbox2));
+                else
+                    this.Frame.Navigate(typeof(Strongbox1));
             }
             else
             {
@@ -165,7 +180,10 @@ namespace MiShi
             Standbox.SetPasswordShowMinus(0);
             if (Standbox.Check() == true)
             {
-                this.Frame.Navigate(typeof(Strongbox2));
+                if (this.MagnifierInBox.Visibility == Windows.UI.Xaml.Visibility.Visible)
+                    this.Frame.Navigate(typeof(Strongbox2));
+                else
+                    this.Frame.Navigate(typeof(Strongbox1));
             }
             else
             {
@@ -178,7 +196,10 @@ namespace MiShi
             Standbox.SetPasswordShowMinus(1);
             if (Standbox.Check() == true)
             {
-                this.Frame.Navigate(typeof(Strongbox2));
+                if (this.MagnifierInBox.Visibility == Windows.UI.Xaml.Visibility.Visible)
+                    this.Frame.Navigate(typeof(Strongbox2));
+                else
+                    this.Frame.Navigate(typeof(Strongbox1));
             }
             else
             {
@@ -191,7 +212,10 @@ namespace MiShi
             Standbox.SetPasswordShowMinus(2);
             if (Standbox.Check() == true)
             {
-                this.Frame.Navigate(typeof(Strongbox2));
+                if (this.MagnifierInBox.Visibility == Windows.UI.Xaml.Visibility.Visible)
+                    this.Frame.Navigate(typeof(Strongbox2));
+                else
+                    this.Frame.Navigate(typeof(Strongbox1));
             }
             else
             {
@@ -204,7 +228,10 @@ namespace MiShi
             Standbox.SetPasswordShowMinus(3);
             if (Standbox.Check() == true)
             {
-                this.Frame.Navigate(typeof(Strongbox2));
+                if (this.MagnifierInBox.Visibility == Windows.UI.Xaml.Visibility.Visible)
+                    this.Frame.Navigate(typeof(Strongbox2));
+                else
+                    this.Frame.Navigate(typeof(Strongbox1));
             }
             else
             {
@@ -218,6 +245,10 @@ namespace MiShi
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
 
+            this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
             InitPictureTimeText();
         }
 
@@ -227,6 +258,10 @@ namespace MiShi
             this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+            this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
 
         private void InfoKeyButton_Click(object sender, RoutedEventArgs e)
@@ -235,6 +270,10 @@ namespace MiShi
             this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+            this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
 
         }
 
@@ -245,6 +284,10 @@ namespace MiShi
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
 
             this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+            this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
 
         private void PictureChosenButton_Click(object sender, RoutedEventArgs e)

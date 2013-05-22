@@ -175,15 +175,11 @@
     <Content Include="Assets\191.jpg" />
     <Content Include="Assets\192.jpg" />
     <Content Include="Assets\193.jpg" />
-    <Content Include="Assets\Book1.jpg" />
-    <Content Include="Assets\Book11.jpg" />
-    <Content Include="Assets\book2.jpg" />
     <Content Include="Assets\CoverKeyImage.jpg" />
     <Content Include="Assets\KeyInBox.jpg" />
     <Content Include="Assets\Logo.jpg" />
     <Content Include="Assets\MagnifierInBox.jpg" />
     <Content Include="Assets\MagnifierInBox1.png" />
-    <Content Include="Assets\NOTE.jpg" />
     <Content Include="Assets\NOTE2.jpg" />
     <Content Include="Assets\OpenedDoor.jpg" />
     <Content Include="Assets\OpnedSdandbox.jpg" />

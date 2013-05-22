@@ -16,17 +16,17 @@
     <AppXManifest Include="D:\keshe2\MiShi\MiShi\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-05-21T14:47:21.056</Modified>
+      <Modified>2013-05-22T03:30:57.050</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\MiShi.exe">
       <PackagePath>MiShi.exe</PackagePath>
-      <Modified>2013-05-21T16:59:31.321</Modified>
+      <Modified>2013-05-22T07:50:13.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\MiShi.pdb">
       <PackagePath>MiShi.pdb</PackagePath>
-      <Modified>2013-05-21T16:59:31.228</Modified>
+      <Modified>2013-05-22T07:50:13.678</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\01.jpg">
       <PackagePath>Assets\01.jpg</PackagePath>
@@ -124,18 +124,6 @@
       <PackagePath>Assets\193.jpg</PackagePath>
       <Modified>2013-05-20T08:09:04.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\Book1.jpg">
-      <PackagePath>Assets\Book1.jpg</PackagePath>
-      <Modified>2013-05-20T08:09:04.197</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\Book11.jpg">
-      <PackagePath>Assets\Book11.jpg</PackagePath>
-      <Modified>2013-05-20T08:09:04.203</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\book2.jpg">
-      <PackagePath>Assets\book2.jpg</PackagePath>
-      <Modified>2013-05-20T08:09:04.200</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\CoverKeyImage.jpg">
       <PackagePath>Assets\CoverKeyImage.jpg</PackagePath>
       <Modified>2013-05-20T08:09:04.206</Modified>
@@ -152,17 +140,13 @@
       <PackagePath>Assets\MagnifierInBox.jpg</PackagePath>
       <Modified>2013-05-21T07:49:22.659</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\NOTE.jpg">
-      <PackagePath>Assets\NOTE.jpg</PackagePath>
-      <Modified>2013-05-20T08:09:04.221</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\NOTE2.jpg">
       <PackagePath>Assets\NOTE2.jpg</PackagePath>
       <Modified>2013-05-21T06:41:41.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\OpenedDoor.jpg">
       <PackagePath>Assets\OpenedDoor.jpg</PackagePath>
-      <Modified>2013-05-21T14:09:16.369</Modified>
+      <Modified>2013-05-22T02:31:01.328</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\OpnedSdandbox.jpg">
       <PackagePath>Assets\OpnedSdandbox.jpg</PackagePath>
@@ -230,7 +214,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\BedStand1.xaml">
       <PackagePath>BedStand1.xaml</PackagePath>
-      <Modified>2013-05-21T16:15:27.095</Modified>
+      <Modified>2013-05-22T02:35:40.390</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
@@ -242,15 +226,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\East.xaml">
       <PackagePath>East.xaml</PackagePath>
-      <Modified>2013-05-21T16:16:06.273</Modified>
+      <Modified>2013-05-22T02:13:51.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2013-05-21T16:16:26.378</Modified>
+      <Modified>2013-05-22T03:28:21.275</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\OpenedDoor.xaml">
       <PackagePath>OpenedDoor.xaml</PackagePath>
-      <Modified>2013-05-21T16:16:42.850</Modified>
+      <Modified>2013-05-22T02:03:50.409</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\South.xaml">
       <PackagePath>South.xaml</PackagePath>
@@ -258,7 +242,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\Strongbox2.xaml">
       <PackagePath>Strongbox2.xaml</PackagePath>
-      <Modified>2013-05-21T16:53:57.510</Modified>
+      <Modified>2013-05-22T02:03:07.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\Start0.xaml">
       <PackagePath>Start0.xaml</PackagePath>
@@ -266,7 +250,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\Strongbox0.xaml">
       <PackagePath>Strongbox0.xaml</PackagePath>
-      <Modified>2013-05-21T16:17:25.263</Modified>
+      <Modified>2013-05-22T02:03:15.517</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\Strongbox1.xaml">
       <PackagePath>Strongbox1.xaml</PackagePath>
@@ -278,7 +262,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-05-21T14:47:20.597</Modified>
+      <Modified>2013-05-22T03:30:56.901</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

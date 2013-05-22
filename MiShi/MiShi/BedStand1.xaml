@@ -31,6 +31,7 @@
     	<Image x:Name="InfoKeyImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876" Source="Assets/钥匙1.jpg" Stretch="Fill"/>
     	<Button x:Name="InfoCloseButton" Content="" HorizontalAlignment="Left" Height="54" Margin="1011,128,0,0" VerticalAlignment="Top" Width="53" Opacity="0" BorderThickness="0" Click="InfoCloseButton_Click"/>
     	<TextBlock x:Name="PictureTimeText" HorizontalAlignment="Left" Height="33" Margin="792,557,0,0" TextWrapping="Wrap" Text="2012.12.12" VerticalAlignment="Top" Width="144" FontSize="29.333" Foreground="#FF0007FF"/>
+    	<Button x:Name="CloseChouTi" Content="" HorizontalAlignment="Left" Height="129" Margin="870,639,0,0" VerticalAlignment="Top" Width="276" Opacity="0" BorderThickness="0" Click="CloseChouTi_Click"/>
 
     </Grid>
 </Page>

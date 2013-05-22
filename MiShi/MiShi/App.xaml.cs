@@ -159,6 +159,12 @@ namespace MiShi
             return password[i];
         }
         private static int[] passwordShow = { 0, 0, 0, 0 };
+        public static void SetPasswordShowZeros()
+        {
+            //passwordShow = {0,0,0,0};
+            for(int i = 0; i < 4; i++)
+                passwordShow[i] = 0;
+        }
         public static void SetPasswordShowPlus(int i)
         {
             if (passwordShow[i] == 9)

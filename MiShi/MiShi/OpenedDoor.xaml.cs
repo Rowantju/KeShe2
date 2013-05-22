@@ -80,6 +80,10 @@ namespace MiShi
             this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+            this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             //this
             //this.
             InitPictureTimeText();
@@ -91,6 +95,10 @@ namespace MiShi
             this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+            this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
 
         private void InfoKeyButton_Click(object sender, RoutedEventArgs e)
@@ -99,6 +107,10 @@ namespace MiShi
             this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+            this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
 
         private void InfoCloseButton_Click(object sender, RoutedEventArgs e)
@@ -108,6 +120,10 @@ namespace MiShi
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             //关掉PictureTimeText
             this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+            this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
 
         private void PictureChosenButton_Click(object sender, RoutedEventArgs e)

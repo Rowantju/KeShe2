@@ -145,6 +145,10 @@ namespace MiShi
             this.InfoKeyImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
 
             this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+            this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
         }
 
         private void PictureChosenButton_Click(object sender, RoutedEventArgs e)
@@ -210,6 +214,11 @@ namespace MiShi
                     //this.OpenDoorButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 }
             }
+        }
+
+        private void CloseChouTi_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(BedStand0));
         }
 
     }
