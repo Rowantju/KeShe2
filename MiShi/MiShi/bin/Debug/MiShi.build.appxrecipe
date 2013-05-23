@@ -91,6 +91,9 @@
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\193.jpg">
       <PackagePath>Assets\193.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\begin_image.jpg">
+      <PackagePath>Assets\begin_image.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\CoverKeyImage.jpg">
       <PackagePath>Assets\CoverKeyImage.jpg</PackagePath>
     </AppxPackagedFile>
@@ -151,6 +154,9 @@
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\MagnifierInBox1.png">
       <PackagePath>Assets\MagnifierInBox1.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\Assets\play_image.PNG">
+      <PackagePath>Assets\play_image.PNG</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
@@ -169,8 +175,14 @@
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\East.xaml">
       <PackagePath>East.xaml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\help.xaml">
+      <PackagePath>help.xaml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\North.xaml">
+      <PackagePath>North.xaml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\keshe2\MiShi\MiShi\bin\Debug\OpenedDoor.xaml">
       <PackagePath>OpenedDoor.xaml</PackagePath>

@@ -19,17 +19,13 @@ namespace MiShi
     /// <summary>
     /// 可用于自身或导航至 Frame 内部的空白页。
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class help : Page
     {
-        public MainPage()
+        public help()
         {
             this.InitializeComponent();
-            
-            
         }
 
-
-        
         /// <summary>
         /// 在此页将要在 Frame 中显示时进行调用。
         /// </summary>
@@ -38,32 +34,10 @@ namespace MiShi
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
-        private void Button_MouseHover(object sender, RoutedEventArgs e)
-        {
-            ////this.Cursor = Cursors.Hand;
-        }
 
-        private void NorthLeftButton_Click(object sender, RoutedEventArgs e)
+        private void back_button_Click(object sender, RoutedEventArgs e)
         {
-            //this.Frame.Navigate(typeof(West));
-            this.Frame.Navigate(typeof(North));
+            this.Frame.Navigate(typeof(MainPage));
         }
-
-        private void NorthRightButton_Click(object sender, RoutedEventArgs e)
-        {
-            //this.Frame.Navigate(typeof(East));
-           
-        }
-
-        private void play_button_Click(object sender, RoutedEventArgs e)
-        { 
-            this.Frame.Navigate(typeof(North));
-        }
-
-        private void help_button_Click(object sender, RoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(help));
-        }
-      
     }
 }

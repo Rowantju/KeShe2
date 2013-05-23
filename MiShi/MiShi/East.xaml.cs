@@ -77,7 +77,7 @@ namespace MiShi
 
         private void EaetLeftButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(MainPage));
+            this.Frame.Navigate(typeof(North));
         }
 
         private void EastRightButton_Click(object sender, RoutedEventArgs e)

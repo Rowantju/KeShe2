@@ -115,3 +115,9 @@ D:\keshe2\MiShi\MiShi\bin\Debug\MiShi.build.appxrecipe
 D:\keshe2\MiShi\MiShi\obj\Debug\OpenedDoor.g.i.cs
 D:\keshe2\MiShi\MiShi\obj\Debug\OpenedDoor.g.cs
 D:\keshe2\MiShi\MiShi\obj\Debug\OpenedDoor.xaml
+D:\keshe2\MiShi\MiShi\obj\Debug\North.g.i.cs
+D:\keshe2\MiShi\MiShi\obj\Debug\North.g.cs
+D:\keshe2\MiShi\MiShi\obj\Debug\North.xaml
+D:\keshe2\MiShi\MiShi\obj\Debug\help.g.i.cs
+D:\keshe2\MiShi\MiShi\obj\Debug\help.g.cs
+D:\keshe2\MiShi\MiShi\obj\Debug\help.xaml

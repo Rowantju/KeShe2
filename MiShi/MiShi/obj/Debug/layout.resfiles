@@ -22,6 +22,7 @@ Assets\19.jpg
 Assets\191.jpg
 Assets\192.jpg
 Assets\193.jpg
+Assets\begin_image.jpg
 Assets\CoverKeyImage.jpg
 Assets\KeyInBox.jpg
 Assets\Logo.jpg
@@ -33,6 +34,7 @@ Assets\OpnedSdandbox.jpg
 Assets\PICTURE.jpg
 Assets\PictureInBox.jpg
 Assets\PictureOnTable.jpg
+Assets\play_image.PNG
 Assets\SmallLogo.jpg
 Assets\SplashScreen.jpg
 Assets\StoreLogo.jpg
@@ -48,7 +50,9 @@ BedStand1.xaml
 Common\StandardStyles.xaml
 Computer0.xaml
 East.xaml
+help.xaml
 MainPage.xaml
+North.xaml
 OpenedDoor.xaml
 South.xaml
 Start0.xaml

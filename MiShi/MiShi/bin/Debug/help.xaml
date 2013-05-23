@@ -1,0 +1,45 @@
+﻿<Page
+    x:Class="MiShi.help"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MiShi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' x:Name="back_button" Content="Button" HorizontalAlignment="Left" Margin="108,62,0,0" VerticalAlignment="Top" Style="{StaticResource BackButtonStyle}" Height="48" Width="47"                          />
+        <TextBlock HorizontalAlignment="Left" Margin="231,176,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="582" Width="921" FontSize="36" Foreground="#FFD19595">
+        	<Run Text="- "/>
+        	<Run Text="游戏介绍"/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="    "/>
+        	<Run Text="   "/>
+        	<Run Text="醒来后突然发现自己身处一个不知所处的屋子时，会不会大吃一惊呢？不要着急，赶紧发挥自己的聪明才智，逃出密室吧！"/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="- "/>
+        	<Run Text="游戏帮助："/>
+        	<LineBreak/>
+        	<Run/>
+        	<LineBreak/>
+        	<Run Text="   "/>
+        	<Run Text="1. 按箭头进行画面或者是叫切换；"/>
+        	<LineBreak/>
+        	<Run Text="   "/>
+        	<Run Text="2. 找出有用的物品，然后观察他们的联系；"/>
+        	<LineBreak/>
+        	<Run Text="   "/>
+        	<Run Text="3. 找出打开门的钥匙，逃出屋子。"/>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="208,62,0,0" TextWrapping="Wrap" Text="密室逃脱" VerticalAlignment="Top" Height="48" Width="283" FontSize="36" Foreground="#FFC32525"/>
+
+    </Grid>
+</Page>
+

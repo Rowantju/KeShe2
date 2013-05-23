@@ -118,8 +118,14 @@
     <Compile Include="East.xaml.cs">
       <DependentUpon>East.xaml</DependentUpon>
     </Compile>
+    <Compile Include="help.xaml.cs">
+      <DependentUpon>help.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="North.xaml.cs">
+      <DependentUpon>North.xaml</DependentUpon>
     </Compile>
     <Compile Include="OpenedDoor.xaml.cs">
       <DependentUpon>OpenedDoor.xaml</DependentUpon>
@@ -175,17 +181,20 @@
     <Content Include="Assets\191.jpg" />
     <Content Include="Assets\192.jpg" />
     <Content Include="Assets\193.jpg" />
+    <Content Include="Assets\begin_image.jpg" />
     <Content Include="Assets\CoverKeyImage.jpg" />
     <Content Include="Assets\KeyInBox.jpg" />
     <Content Include="Assets\Logo.jpg" />
     <Content Include="Assets\MagnifierInBox.jpg" />
     <Content Include="Assets\MagnifierInBox1.png" />
+    <Content Include="Assets\New.jpg" />
     <Content Include="Assets\NOTE2.jpg" />
     <Content Include="Assets\OpenedDoor.jpg" />
     <Content Include="Assets\OpnedSdandbox.jpg" />
     <Content Include="Assets\PICTURE.jpg" />
     <Content Include="Assets\PictureInBox.jpg" />
     <Content Include="Assets\PictureOnTable.jpg" />
+    <Content Include="Assets\play_image.PNG" />
     <Content Include="Assets\SmallLogo.jpg" />
     <Content Include="Assets\SplashScreen.jpg" />
     <Content Include="Assets\StoreLogo.jpg" />
@@ -221,9 +230,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="help.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="North.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="OpenedDoor.xaml">
       <SubType>Designer</SubType>

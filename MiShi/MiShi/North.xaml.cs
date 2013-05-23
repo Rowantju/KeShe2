@@ -19,22 +19,11 @@ namespace MiShi
     /// <summary>
     /// 可用于自身或导航至 Frame 内部的空白页。
     /// </summary>
-    
-    public sealed partial class Computer0 : Page
+    public sealed partial class North : Page
     {
-        public Computer0()
+        public North()
         {
             this.InitializeComponent();
-            if (InterfacePrint.getIsPrinted() == true)
-            {
-                this.ImagePrinted.Visibility = Windows.UI.Xaml.Visibility.Visible;
-                this.GetPictureButton.Visibility = Windows.UI.Xaml.Visibility.Visible;
-            }
-            else
-            {
-                this.ImagePrinted.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-                this.GetPictureButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-            }
             if (Box.getIsPictureShow() == true)
             {
                 this.PictureInBox.Visibility = Windows.UI.Xaml.Visibility.Visible;
@@ -59,7 +48,6 @@ namespace MiShi
             {
                 this.KeyInBox.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             }
-
             // 初始化最初的图片信息全部不显示
             this.InfoPictureImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.InfoMagnifierImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
@@ -70,14 +58,20 @@ namespace MiShi
             this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-        }
 
+            if (Standbox.GetHasInitPassword() == false)
+            {
+                Standbox.InitPassword();
+                Standbox.SetHasInitPassword(true);
+            }
+        }
 
         private void InitPictureTimeText()
         {
             this.PictureTimeText.Visibility = Windows.UI.Xaml.Visibility.Visible;
             this.PictureTimeText.Text = "2010.09." + Standbox.GetPassword(2).ToString() + Standbox.GetPassword(3).ToString();
         }
+
         /// <summary>
         /// 在此页将要在 Frame 中显示时进行调用。
         /// </summary>
@@ -86,33 +80,20 @@ namespace MiShi
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
         }
-       
-        private void ComputerDownButton_Click(object sender, RoutedEventArgs e)
+
+        private void NorthLeftButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(North));
+            this.Frame.Navigate(typeof(West));
         }
 
-        private void ScreenButton_Click(object sender, RoutedEventArgs e)
+        private void NorthRightButton_Click(object sender, RoutedEventArgs e)
         {
-            //this.Frame.Navigate(typeof(ComputerScreen0));
-            this.Frame.Navigate(typeof(Start0));
+            this.Frame.Navigate(typeof(East));
         }
 
-        private void GetPictureButton_Click(object sender, RoutedEventArgs e)
-        {         
-            if (Box.getIsPictureShow() == false)
-            {
-                this.ImagePrinted.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-                this.GetPictureButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
-                Box.setIsPictureShow(true);
-                InterfacePrint.setIsPrinted(false);
-                this.Frame.Navigate(typeof(Computer0));
-                
-            }
-            else
-            {
-                //InterfacePrint.setIsPrinted(true);
-            }
+        private void EnlargeComputerButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Computer0));
         }
 
         private void InfoPictureButton_Click(object sender, RoutedEventArgs e)
@@ -150,6 +131,7 @@ namespace MiShi
             this.KeyChosenImage.Visibility = Windows.UI.Xaml.Visibility.Visible;
             this.PictureChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
             this.MagnifierChosenImage.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
 
         }
 
@@ -229,6 +211,6 @@ namespace MiShi
                     //this.OpenDoorButton.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
                 }
             }
-        }
+        } 
     }
 }

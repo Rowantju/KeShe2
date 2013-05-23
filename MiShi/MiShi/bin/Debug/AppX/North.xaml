@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="MiShi.North"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MiShi"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    	<Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+    		<Image HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1228" Source="Assets/01.jpg" Stretch="Fill"/>
+    		<Button x:ConnectionId='1' x:Name="NorthLeftButton" Content="" HorizontalAlignment="Left" Height="70" Margin="20,39,0,0" VerticalAlignment="Top" Width="75" BorderThickness="0" Opacity="0"                              />
+    		<Button x:ConnectionId='2' x:Name="NorthRightButton" Content="" HorizontalAlignment="Left" Margin="1141,39,0,0" VerticalAlignment="Top" FontSize="24" Height="70" Width="75" BorderThickness="0"                                Opacity="0"/>
+    		<Button x:ConnectionId='3' x:Name="EnlargeComputerButton" Content="" HorizontalAlignment="Left" Height="85" Margin="217,350,0,0" VerticalAlignment="Top" Width="93" Opacity="0" BorderThickness="0"                                    />
+    		<Grid HorizontalAlignment="Left" Height="758" Margin="1240,12,0,0" VerticalAlignment="Top" Width="114">
+    			<Image x:Name="PictureInBox" HorizontalAlignment="Left" Height="150" VerticalAlignment="Top" Width="114" Source="Assets/PictureInBox.jpg" Stretch="Fill"/>
+    			<Image x:Name="MagnifierInBox" HorizontalAlignment="Left" Height="150" Margin="0,164,0,0" VerticalAlignment="Top" Width="114" Source="Assets/MagnifierInBox.jpg" Stretch="Fill"/>
+    			<Image x:Name="KeyInBox" HorizontalAlignment="Left" Height="150" Margin="0,330,0,0" VerticalAlignment="Top" Width="114" Source="Assets/KeyInBox.jpg" Stretch="Fill"/>
+    			<Button x:ConnectionId='5' x:Name="InfoPictureButton" Content="" HorizontalAlignment="Left" Height="67" Margin="77,83,0,0" VerticalAlignment="Top" Width="37" Opacity="0" BorderThickness="0"                                />
+    			<Button x:ConnectionId='6' x:Name="InfoMagnifierButton" Content="" HorizontalAlignment="Left" Height="66" Margin="74,248,0,0" VerticalAlignment="Top" Width="40" Opacity="0" BorderThickness="0"                                  />
+    			<Button x:ConnectionId='7' x:Name="InfoKeyButton" Content="" HorizontalAlignment="Left" Height="64" Margin="82,416,0,0" VerticalAlignment="Top" Width="32" Opacity="0" BorderThickness="0"                            />
+    			<Image x:Name="KeyChosenImage" HorizontalAlignment="Left" Height="29" Margin="0,434,0,0" VerticalAlignment="Top" Width="30" Source="Assets/对勾1.jpg" Stretch="Fill"/>
+    			<Image x:Name="PictureChosenImage" HorizontalAlignment="Left" Height="33" Margin="0,103,0,0" VerticalAlignment="Top" Width="30" Stretch="UniformToFill" Source="Assets/对勾1.jpg"/>
+    			<Image x:Name="MagnifierChosenImage" HorizontalAlignment="Left" Height="32" Margin="0,262,0,0" VerticalAlignment="Top" Width="30" Source="Assets/对勾1.jpg" Stretch="UniformToFill"/>
+    			<Button x:ConnectionId='8' x:Name="PictureChosenButton" Content="" HorizontalAlignment="Left" Height="68" Margin="21,30,0,0" VerticalAlignment="Top" Width="67" BorderThickness="0"                                   Opacity="0"/>
+    			<Button x:ConnectionId='9' x:Name="MagnifierChosenButton" Content="" HorizontalAlignment="Left" Height="66" Margin="21,191,0,0" VerticalAlignment="Top" Width="67" BorderThickness="0" Opacity="0"                                    />
+    			<Button x:ConnectionId='10' x:Name="KeyChosenButton" Content="" HorizontalAlignment="Left" Height="73" Margin="21,349,0,0" VerticalAlignment="Top" Width="67" BorderThickness="0" Opacity="0"                              />
+    		</Grid>
+    		<Image x:Name="InfoPictureImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876" Source="Assets/图片.jpg" Stretch="Fill"/>
+    		<Image x:Name="InfoMagnifierImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876" Source="Assets/信封1.jpg" Stretch="Fill"/>
+    		<Image x:Name="InfoKeyImage" HorizontalAlignment="Left" Height="506" Margin="188,128,0,0" VerticalAlignment="Top" Width="876" Source="Assets/钥匙1.jpg" Stretch="Fill"/>
+    		<Button x:ConnectionId='4' x:Name="InfoCloseButton" Content="" HorizontalAlignment="Left" Height="54" Margin="1011,128,0,0" VerticalAlignment="Top" Width="53" Opacity="0" BorderThickness="0"                              />
+    		<TextBlock x:Name="PictureTimeText" HorizontalAlignment="Left" Height="33" Margin="792,557,0,0" TextWrapping="Wrap" Text="2012.12.12" VerticalAlignment="Top" Width="144" FontSize="29.333" Foreground="#FF0007FF"/>
+
+    	</Grid>
+
+    </Grid>
+</Page>
+
